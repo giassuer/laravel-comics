@@ -1,0 +1,14 @@
+main{
+    background-color: black;
+    .container{
+        flex-wrap: wrap;
+        .single-comic{
+            width: calc(100% / 6 - 10px);
+            margin: 5px;
+            .comic-title{
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}

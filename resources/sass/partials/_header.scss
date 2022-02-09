@@ -1,0 +1,38 @@
+header{
+    .header-top{
+        padding: 10px 0px;
+        background-color: $primary_color;
+        .container{
+            text-align: right;
+            span{
+                margin-left: 15px;
+                font-size: 12px;
+                color: white;
+            }
+        }
+    }
+
+    .header-bottom{
+        padding: 20px 0px;
+        .container{
+            align-items: center;
+            align-content: center;
+            .logo{
+                width: 50px;
+            }
+            .header-nav{
+                li{
+                    list-style-type: none;
+                    margin: 10px;
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+
+    .jumbotron{
+        width: 60%;
+    }
+
+}
