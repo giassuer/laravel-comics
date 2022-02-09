@@ -46,6 +46,17 @@
     </div>
 
     <div class="footer-bottom">
-        
+        <div class="container flex">
+            <div class="footer-bottom-left">
+                <span class="btn">
+                    SING-UP NOW!
+                </span>
+            </div>
+            <div class="footer-bottom-right">
+                <span>
+                    FOLLOW US
+                </span>
+            </div>
+        </div>
     </div>
 </footer>

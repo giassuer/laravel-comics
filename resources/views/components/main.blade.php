@@ -22,10 +22,10 @@
             @foreach ($menu as $menus)
                 <div class="main-menu-item flex">
                     <div class="main-menu-logo">
-                        <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="">
+                        <img src="{{$menus['img']}}" alt="">
                     </div>
                     <div class="main-menu-text">
-                        <h3>{{$menus['text']}}</h3>
+                        <span>{{$menus['text']}}</span>
                     </div>
                 </div>
             @endforeach

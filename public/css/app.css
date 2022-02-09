@@ -84,10 +84,11 @@ main .main-menu .container .main-menu-item {
   align-items: center;
 }
 main .main-menu .container .main-menu-item .main-menu-logo {
-  width: 50%;
+  width: 30%;
 }
 main .main-menu .container .main-menu-item .main-menu-text {
   color: white;
+  font-size: 10px;
 }
 
 footer .footer-top {
@@ -109,4 +110,19 @@ footer .footer-top .container .footer-img {
 }
 footer .footer-top .container .footer-img img {
   width: 60%;
+}
+footer .footer-bottom {
+  background-color: #303030;
+}
+footer .footer-bottom .container {
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+footer .footer-bottom .container .footer-bottom-left span {
+  padding: 10px 5px;
+  color: white;
+  border: 2px solid #0282f9;
+}
+footer .footer-bottom .container .footer-bottom-right span {
+  color: #0282f9;
 }
