@@ -19,17 +19,27 @@ Route::get('/', function () {
     $data = [
         'comics' => $comics_array,
         'menu' => [
-            'img' => 'images/buy-comics-digital-comics.png',
-            'text' => 'DIGITAL COMICS'
-        ],
-        [
-            'img' => 'images/buy-comics-digital-comics.png',
-            'text' => 'DIGITAL COMICS'
-        ],
-        [
-            'img' => 'images/buy-comics-digital-comics.png',
-            'text' => 'DIGITAL COMICS'
-        ],
+            [
+                'img' => 'images/buy-comics-digital-comics.png',
+                'text' => 'DIGITAL COMICS'
+            ],
+            [
+                'img' => 'images/buy-comics-digital-comics.png',
+                'text' => 'DIGITAL COMICS'
+            ],
+            [
+                'img' => 'images/buy-comics-digital-comics.png',
+                'text' => 'DIGITAL COMICS'
+            ],
+            [
+                'img' => 'images/buy-comics-digital-comics.png',
+                'text' => 'DIGITAL COMICS'
+            ],
+            [
+                'img' => 'images/buy-comics-digital-comics.png',
+                'text' => 'DIGITAL COMICS'
+            ]
+        ]
     ];
     
     return view('layouts.app', $data);

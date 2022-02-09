@@ -21,68 +21,92 @@ header .header-top {
   padding: 10px 0px;
   background-color: #0282f9;
 }
-
 header .header-top .container {
   text-align: right;
 }
-
 header .header-top .container span {
   margin-left: 15px;
   font-size: 12px;
   color: white;
 }
-
 header .header-bottom {
   padding: 20px 0px;
 }
-
 header .header-bottom .container {
   align-items: center;
   align-content: center;
 }
-
 header .header-bottom .container .logo {
   width: 50px;
 }
-
 header .header-bottom .container .header-nav li {
   list-style-type: none;
   margin: 10px;
   font-weight: bold;
 }
-
 header .jumbotron {
-  width: 60%;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  height: 350px;
 }
 
 main {
   background-color: black;
-  padding: 30px 0px;
+  padding-top: 30px;
 }
-
 main .container {
   flex-wrap: wrap;
 }
-
 main .container .single-comic {
   width: calc(16.6666666667% - 10px);
   margin: 5px;
 }
-
 main .container .single-comic .comic-title {
   text-align: center;
   color: white;
 }
-
 main .main-bottom {
   text-align: center;
   margin: 30px 0px;
 }
-
 main .main-bottom span {
   font-weight: bold;
   color: white;
   background-color: #0282f9;
   padding: 10px 5px;
 }
+main .main-menu {
+  background-color: #0282f9;
+  padding: 20px 0px;
+}
+main .main-menu .container .main-menu-item {
+  width: 20%;
+  align-items: center;
+}
+main .main-menu .container .main-menu-item .main-menu-logo {
+  width: 50%;
+}
+main .main-menu .container .main-menu-item .main-menu-text {
+  color: white;
+}
 
+footer .footer-top {
+  background-image: url("../images/footer-bg.jpg");
+}
+footer .footer-top .container {
+  justify-content: space-between;
+}
+footer .footer-top .container .footer-lists div {
+  color: white;
+  padding: 10px;
+  padding-top: 50px;
+}
+footer .footer-top .container .footer-lists li {
+  list-style-type: none;
+}
+footer .footer-top .container .footer-img {
+  text-align: right;
+}
+footer .footer-top .container .footer-img img {
+  width: 60%;
+}

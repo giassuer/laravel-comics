@@ -1,6 +1,6 @@
 main{
     background-color: black;
-    padding: 30px 0px;
+    padding-top: 30px;
     .container{
         flex-wrap: wrap;
         .single-comic{
@@ -23,5 +23,20 @@ main{
         }
     }
 
-    
+    .main-menu{
+        background-color: $primary_color;
+        padding: 20px 0px;
+        .container{
+            .main-menu-item{
+                width: calc(100% / 5);
+                align-items: center;
+                .main-menu-logo{
+                    width: 50%;
+                }
+                .main-menu-text{
+                    color: white;
+                }
+            }
+        }
+    }
 }
