@@ -57,6 +57,7 @@ header .jumbotron {
 
 main {
   background-color: black;
+  padding: 30px 0px;
 }
 
 main .container {
@@ -71,5 +72,17 @@ main .container .single-comic {
 main .container .single-comic .comic-title {
   text-align: center;
   color: white;
+}
+
+main .main-bottom {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+main .main-bottom span {
+  font-weight: bold;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 5px;
 }
 

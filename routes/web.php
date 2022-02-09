@@ -17,7 +17,19 @@ Route::get('/', function () {
     $comics_array = config('comics');
 
     $data = [
-        'comics' => $comics_array
+        'comics' => $comics_array,
+        'menu' => [
+            'img' => 'images/buy-comics-digital-comics.png',
+            'text' => 'DIGITAL COMICS'
+        ],
+        [
+            'img' => 'images/buy-comics-digital-comics.png',
+            'text' => 'DIGITAL COMICS'
+        ],
+        [
+            'img' => 'images/buy-comics-digital-comics.png',
+            'text' => 'DIGITAL COMICS'
+        ],
     ];
     
     return view('layouts.app', $data);

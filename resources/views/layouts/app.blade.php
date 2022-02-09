@@ -11,20 +11,9 @@
     
     @include('components.header')
 
-    <main>
-        <div class="container flex">
-            @foreach ($comics as $comic)
-                <div class="single-comic">
-                    <div class="comic-img">
-                        <img src="{{$comic['thumb']}}" alt="">
-                    </div>
-                    <div class="comic-title">
-                        {{$comic['title']}}
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </main>
+    @include('components.main')
+
+    @include('components.footer')
 
 
 </body>
