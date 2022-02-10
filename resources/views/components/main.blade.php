@@ -6,7 +6,7 @@
                     <img src="{{$comic['thumb']}}" alt="">
                 </div>
                 <div class="comic-title">
-                    <a href="">{{$comic['title']}}</a>
+                    <a href="{{route('details',$comic['id'])}}">{{$comic['title']}}</a>
                 </div>
             </div>
         @endforeach

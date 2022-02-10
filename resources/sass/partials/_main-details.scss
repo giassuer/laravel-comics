@@ -1,5 +1,6 @@
 .main-details-top{
     background-color: white;
+    padding: 20px 0px;
     .container{
         position: relative;
         .logo-details{
@@ -9,5 +10,27 @@
         }
         h2{
         }
+        .details-top-left{
+            width: 70%;
+            padding: 0px 10px;
+            .prise-container{
+                background-color: #55ba59;
+                color: white;
+                padding: 5px 3px;
+            }
+        }
+        .details-top-right{
+            width: 30%;
+        }
+    }
+}
+.main-details-bottom{
+    background-color: white;
+    justify-content: space-between;
+    .col-left{
+        width: 50%;
+    }
+    .col-right{
+        width: 50%;
     }
 }

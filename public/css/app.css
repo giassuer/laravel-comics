@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+.non {
+  display: none;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -132,6 +136,7 @@ footer .footer-bottom .container .footer-bottom-right span {
 
 .main-details-top {
   background-color: white;
+  padding: 20px 0px;
 }
 .main-details-top .container {
   position: relative;
@@ -140,4 +145,27 @@ footer .footer-bottom .container .footer-bottom-right span {
   position: absolute;
   top: -300px;
   border: 1px solid white;
+}
+.main-details-top .container .details-top-left {
+  width: 70%;
+  padding: 0px 10px;
+}
+.main-details-top .container .details-top-left .prise-container {
+  background-color: #55ba59;
+  color: white;
+  padding: 5px 3px;
+}
+.main-details-top .container .details-top-right {
+  width: 30%;
+}
+
+.main-details-bottom {
+  background-color: white;
+  justify-content: space-between;
+}
+.main-details-bottom .col-left {
+  width: 50%;
+}
+.main-details-bottom .col-right {
+  width: 50%;
 }

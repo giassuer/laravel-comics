@@ -1,4 +1,4 @@
-<footer>
+<footer class="{{ Request::route()->getName() === 'details' ? 'non' : '' }}">
     <div class="footer-top">
         <div class="container flex">
             <div class="footer-lists flex">

@@ -5,11 +5,38 @@
         </div>
         <div class="details-top-left">
             <h2>{{$comics_d['title']}}</h2>
+            <div class="prise-container flex">
+                <div>
+                    U.S. prise{{$comics_d['price']}}
+                </div>
+            </div>
+            <p>
+                {{$comics_d['description']}}
+            </p>
         </div>
         <div class="details-top-right">
-            <img src="{{ asset('/images/adv.jpg') }}" alt="">
+            
+                <img src="{{ asset('images/super.jpg') }}" alt="">
+            
         </div>
     </div>
 </div>
 
-<div class="main-details-bottom"></div>
+<div class="main-details-bottom">
+    <div class="container flex">
+        <div class="col-left">
+            <h3>Talent</h3>
+            <div class="Art flex">
+                <div>Art by</div>
+                <div>
+                    {{-- @foreach ($comics_d as $artist_comic)
+                        {{$artist_comic}}
+                    @endforeach --}}
+                </div>
+            </div>
+        </div>
+        <div class="col-left">
+            <h3>Specs</h3>
+        </div>
+    </div>
+</div>
