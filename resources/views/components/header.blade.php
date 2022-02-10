@@ -9,7 +9,7 @@
     <div class="header-bottom">
         <div class="container flex">
             <div class="logo">
-                <img src="{{ asset('images/dc-logo.png') }}" alt="">
+                <a href="{{route('home')}}"><img src="{{ asset('images/dc-logo.png') }}" alt=""></a>
             </div>
             <div class="header-nav">
                 <ul class="flex">

@@ -43,7 +43,7 @@ Route::get('/', function () {
     ];
     
     return view('home', $data);
-});
+})->name('home');
 
 
 Route::get('/details/{id}', function ($id) {

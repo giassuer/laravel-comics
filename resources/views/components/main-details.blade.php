@@ -26,12 +26,24 @@
     <div class="container flex">
         <div class="col-left">
             <h3>Talent</h3>
-            <div class="Art flex">
-                <div>Art by</div>
-                <div>
-                    {{-- @foreach ($comics_d as $artist_comic)
-                        {{$artist_comic}}
-                    @endforeach --}}
+            <div class="art flex">
+                <div class="art-d flex">
+                    <div>Art by</div>
+                    <div>
+                        @foreach ($comics_d['artists'] as $artist_comic)
+                            {{$artist_comic}}
+                        @endforeach
+                    </div>
+                </div>
+
+
+                <div class="art-d flex">
+                    <div>Art by</div>
+                    <div>
+                        @foreach ($comics_d['writers'] as $writer_comic)
+                            {{$writer_comic}}
+                        @endforeach
+                    </div>
                 </div>
             </div>
         </div>
