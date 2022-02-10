@@ -146,6 +146,9 @@ footer .footer-bottom .container .footer-bottom-right span {
   top: -300px;
   border: 1px solid white;
 }
+.main-details-top .container h2 {
+  padding: 15px 0px;
+}
 .main-details-top .container .details-top-left {
   width: 70%;
   padding: 0px 10px;
@@ -154,6 +157,9 @@ footer .footer-bottom .container .footer-bottom-right span {
   background-color: #55ba59;
   color: white;
   padding: 5px 3px;
+}
+.main-details-top .container .details-top-left p {
+  padding: 15px 0px;
 }
 .main-details-top .container .details-top-right {
   width: 30%;
@@ -179,7 +185,9 @@ footer .footer-bottom .container .footer-bottom-right span {
 }
 .main-details-bottom .col-left .art .art-d div {
   width: 50%;
-  margin-bottom: 10px;
+  padding: 10px 0px;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
 }
 .main-details-bottom .col-right {
   width: 50%;
