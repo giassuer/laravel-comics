@@ -1,4 +1,4 @@
-<main>
+
     <div class="container flex">
         @foreach ($comics as $comic)
             <div class="single-comic">
@@ -6,7 +6,7 @@
                     <img src="{{$comic['thumb']}}" alt="">
                 </div>
                 <div class="comic-title">
-                    {{$comic['title']}}
+                    <a href="">{{$comic['title']}}</a>
                 </div>
             </div>
         @endforeach
@@ -34,4 +34,4 @@
 
         </div>
     </div>
-</main>
+    

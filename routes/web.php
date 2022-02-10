@@ -42,5 +42,23 @@ Route::get('/', function () {
         ]
     ];
     
-    return view('layouts.app', $data);
+    return view('home', $data);
 });
+
+
+Route::get('/details/{id}', function ($id) {
+    $comics_array = config('comics');
+    $comic_to_show = false;
+
+    foreach ($comics_array as $comic_show) {
+        if ($comic_show['id'] == $id) {
+            $comic_to_show = $comic_show;
+        }
+    }
+
+    $data = [
+        'comics_d' => $comic_to_show,
+    ];
+    
+    return view('details', $data);
+})->name('details');

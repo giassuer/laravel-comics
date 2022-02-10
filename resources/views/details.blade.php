@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title')
-    DC comics
+    Details
 @endsection
 
 @section('main-content')
-    @include('components.main')
+    @include('components.main-details')
 @endsection

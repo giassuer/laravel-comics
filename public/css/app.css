@@ -63,7 +63,10 @@ main .container .single-comic {
 }
 main .container .single-comic .comic-title {
   text-align: center;
+}
+main .container .single-comic .comic-title a {
   color: white;
+  text-decoration: none;
 }
 main .main-bottom {
   text-align: center;
@@ -125,4 +128,16 @@ footer .footer-bottom .container .footer-bottom-left span {
 }
 footer .footer-bottom .container .footer-bottom-right span {
   color: #0282f9;
+}
+
+.main-details-top {
+  background-color: white;
+}
+.main-details-top .container {
+  position: relative;
+}
+.main-details-top .container .logo-details {
+  position: absolute;
+  top: -300px;
+  border: 1px solid white;
 }

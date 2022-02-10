@@ -8,7 +8,10 @@ main{
             margin: 5px;
             .comic-title{
                 text-align: center;
-                color: white;
+                a{
+                    color: white; 
+                    text-decoration: none;
+                }
             }
         }
     }
